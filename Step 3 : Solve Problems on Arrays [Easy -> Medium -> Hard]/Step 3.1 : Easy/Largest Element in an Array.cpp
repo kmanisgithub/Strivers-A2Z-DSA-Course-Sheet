@@ -7,3 +7,10 @@ int largestElement(vector<int> &arr, int n) {
     max=arr[i];
     return max;
 }
+/*#include <bits/stdc++.h> 
+int largestElement(vector<int> &arr, int n) {
+    // Write your code here.
+    int a=*max_element(arr.begin(),arr.end());
+    return a;
+}
+*/
